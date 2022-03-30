@@ -44,7 +44,9 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.wst.server.core,
  org.eclipse.wst.sse.core,
  org.eclipse.wst.sse.ui,
+ org.eclipse.swt,
  com.gwtplugins.gdt.eclipse.platform
 Bundle-ClassPath: libs/gwt-dev.jar,
  .
-Import-Package: org.mortbay.util.ajax
+Import-Package: org.mortbay.util.ajax,org.eclipse.swt.widgets
+
